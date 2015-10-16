@@ -85,3 +85,5 @@ for i = 1:(numClasses)
     meanSpectrum{i} = mean(classSpectrum);
 end
 endMembers = endMembers';
+
+save endMembers_mean_15_10_2015 endMembers
