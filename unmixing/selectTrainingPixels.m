@@ -1,4 +1,4 @@
-function [trainData,trainLabels, testData, testLabels,endMembers] = selectTrainingPixels(indian_pines,indian_pines_gt,procent,numBands)
+function [trainData,trainLabels, testData, testLabels,endMembers,trainMatrix,testMatrix] = selectTrainingPixels(indian_pines,indian_pines_gt,procent,numBands)
 
 %% Find the indices of each class value from the ground truth indian pines
 %  Store the indices for all classes in a classIndex variable
@@ -66,7 +66,7 @@ for i = 1:(numClasses)
         trainMatrix{i} = [trainMatrix{i}; trainPixSpecVector]; % each trainMatrix is N x d
     end
 end
-
+save trainingAndTestMatrices trainMatrix testMatrix
 trainData = [];
 testData = [];
 for i = 1:(numClasses)
@@ -86,4 +86,4 @@ for i = 1:(numClasses)
 end
 endMembers = endMembers';
 
-save endMembers_mean_15_10_2015 endMembers
+save endMembers_mean_16_10_2015 endMembers

@@ -3,7 +3,7 @@ function main_fclsu_fast
 %% SVM classification
 %[indian_pines_gt,indian_pines,numBands] = load_Indian_Pines_image();
 %procent = 0.4;
-%[trainData,trainLabels, testData, testLabels,endMembers] = selectTrainingPixels(indian_pines,indian_pines_gt,procent,numBands);
+%[trainData,trainLabels, testData, testLabels,endMembers,trainMatrix,testMatrix ] = selectTrainingPixels(indian_pines,indian_pines_gt,procent,numBands);
 %plot(endMembers);
 % SVM probabilistic classification
 %[predict_label, accuracy, prob_values] = svmClassification(trainData,trainLabels, testData, testLabels);
@@ -15,6 +15,7 @@ function main_fclsu_fast
 % lower - 39 percent
 % load('svm_model_15_10_2015');
 % load('svmClassification_15_10_2015_40_train_60_test_10_cv');
+
 % endMembers = selectSVTrainingData(model,trainData,trainLabels);
 % alphas = FCLSU_fast(testData,endMembers)'; % SLOW
 % alphasT = alphas';
@@ -32,23 +33,46 @@ function main_fclsu_fast
 % The endmembers here are extracted using the mean
 % of the training pixels from each class
 
-load('endMembers_mean_15_10_2015');
-load('svmClassification_15_10_2015_40_train_60_test_10_cv');
-load('unmixing_15_10_2015');
+%load('endMembers_mean_15_10_2015');
+%load('svmClassification_15_10_2015_40_train_60_test_10_cv');
+%load('unmixing_15_10_2015');
 
-alphasT = alphas';
+%alphasT = alphas';
 
-comb_prob = [];
-for i = 1: size(testData,1)
-    if ((max(alphasT(i,:))) > (max(prob_values(i,:))))
-        comb_prob = [comb_prob; max(alphasT(i,:))];
-    else
-        comb_prob = [comb_prob; max(prob_values(i,:))];
-    end
+% comb_prob = [];
+% for i = 1: size(testData,1)
+%     if ((max(alphasT(i,:))) > (max(prob_values(i,:))))
+%         comb_prob = [comb_prob; max(alphasT(i,:))];
+%     else
+%         comb_prob = [comb_prob; max(prob_values(i,:))];
+%     end
+% end
+% 
+% labels = getLabels(comb_prob);
+% EVAL_COMB = calcAccuracy(testLabels,labels);
+
+%% 3rd Option. Use Robs extraction of endmembers method:
+% extract_class_endmembers.m to improve the unmixing accuracy first
+% Then use these better fitting class endmembers as input to FCLSU_fast
+% unmixing method and see wheter the abbundance accuracy is increasing or
+% not. Afterwards try to combine the abundance and svm probability
+% values per pixel and see if the final classification accuracy is
+% improved.
+
+load('trainingAndTestMatrices');
+load('svmClassification_16_10_2015_40_train_60_test_10_cv');
+load('svm_model_15_10_2015');
+for i = 1: model.nr_class
+    L{i} = trainMatrix{i}';
 end
 
-labels = getLabels(comb_prob);
-EVAL_COMB = calcAccuracy(testLabels,labels);
+% We need dxN as input
+[E,I]=extract_class_endmembers(L);
+alphas = FCLSU_fast(testData,E)'; 
+alphasT = alphas';
+alphaLabels = getLabels(alphasT);
+EVAL_APHA = calcAccuracy(testLabels,alphaLabels);
+% using only the testData to extract the endmembers we get 36% abundance accuracy...
 
 % EVAL_SVM = calcAccuracy(testLabels,predict_label);
 % 
@@ -80,7 +104,6 @@ EVAL_COMB = calcAccuracy(testLabels,labels);
 end
 
 %% Hard labeling using the maximal abundance value
-
 function labels = getLabels(alphasT)
     maxArray = []; maxIndexArray = [];
     for i = 1:size(alphasT,1)

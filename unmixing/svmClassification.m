@@ -17,7 +17,7 @@ function [predict_label, accuracy, prob_values] = svmClassification(trainData,tr
     % Use the SVM model to classify the data
     [predict_label, accuracy, prob_values] = libsvmpredict(testLabels, testData, model, '-b 1'); % run the SVM model on the test data
     time = toc;
-    save svmClassification_15_10_2015_40_train_60_test_10_cv trainData  trainLabels testData testLabels time predict_label accuracy prob_values
+    save svmClassification_16_10_2015_40_train_60_test_10_cv trainData  trainLabels testData testLabels time predict_label accuracy prob_values
     end
 
 function [bestG,bestC] = selectParams(trainData,trainLabels)
