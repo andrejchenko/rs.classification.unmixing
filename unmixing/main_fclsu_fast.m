@@ -62,8 +62,12 @@ function main_fclsu_fast
 load('trainingAndTestMatrices');
 load('svmClassification_16_10_2015_40_train_60_test_10_cv');
 load('svm_model_15_10_2015');
+% we now include all the data: training + testing data for endmember
+% extraction
 for i = 1: model.nr_class
-    L{i} = trainMatrix{i}';
+    L{i} = trainMatrix{i};
+    L{i} = [L{i}; testMatrix{i}];
+    L{i} = L{i}';
 end
 
 % We need dxN as input
@@ -72,7 +76,7 @@ alphas = FCLSU_fast(testData,E)';
 alphasT = alphas';
 alphaLabels = getLabels(alphasT);
 EVAL_APHA = calcAccuracy(testLabels,alphaLabels);
-% using only the testData to extract the endmembers we get 36% abundance accuracy...
+% using both the trainMatrix and testMatrix to extract the endmembers we get 35% abundance accuracy...
 
 % EVAL_SVM = calcAccuracy(testLabels,predict_label);
 % 
