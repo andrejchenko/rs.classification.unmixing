@@ -59,24 +59,76 @@ function main_fclsu_fast
 % values per pixel and see if the final classification accuracy is
 % improved.
 
-load('trainingAndTestMatrices');
-load('svmClassification_16_10_2015_40_train_60_test_10_cv');
-load('svm_model_15_10_2015');
+% load('trainingAndTestMatrices');
+% load('svmClassification_16_10_2015_40_train_60_test_10_cv');
+% load('svm_model_15_10_2015');
 % we now include all the data: training + testing data for endmember
 % extraction
-for i = 1: model.nr_class
-    L{i} = trainMatrix{i};
-    L{i} = [L{i}; testMatrix{i}];
-    L{i} = L{i}';
-end
+% for i = 1: model.nr_class
+%     L{i} = trainMatrix{i};
+%     L{i} = [L{i}; testMatrix{i}];
+%     L{i} = L{i}';
+% end
 
 % We need dxN as input
-[E,I]=extract_class_endmembers(L);
-alphas = FCLSU_fast(testData,E)'; 
-alphasT = alphas';
-alphaLabels = getLabels(alphasT);
-EVAL_APHA = calcAccuracy(testLabels,alphaLabels);
+% [E,I]=extract_class_endmembers(L);
+% alphas = FCLSU_fast(testData,E)'; 
+% alphasT = alphas';
+% alphaLabels = getLabels(alphasT);
+% EVAL_APHA = calcAccuracy(testLabels,alphaLabels);
 % using both the trainMatrix and testMatrix to extract the endmembers we get 35% abundance accuracy...
+
+
+%% 4th Option. Kmeans for endmember extraction. Use the labeled training data per 
+% class to find the cluster centroid for that class. Do this for all
+% classes. Cluster centroids will play the role of the endmembers
+
+%  load('trainingAndTestMatrices');
+%  load('svmClassification_16_10_2015_40_train_60_test_10_cv');
+%  load('svm_model_15_10_2015');
+% 
+%  k = 1;
+%  centroids = [];
+%  for i = 1:model.nr_class
+%         [IDX,C]= kmeans(trainMatrix{i},k);
+%         centroids = [centroids; C]; % N x p
+%  end
+%  
+%  E = centroids';% p x N
+%  alphas = FCLSU_fast(testData,E)'; 
+%  alphasT = alphas';
+%  alphaLabels = getLabels(alphasT);
+%  EVAL_APHA = calcAccuracy(testLabels,alphaLabels);
+% abundance accuracy of 41.43, the same as the endmembers extracted from the mean pixels of a class %
+ 
+ %% 5th option Endmembers from the mean training pixels from each class
+% load('endMembers_mean_15_10_2015');
+% load('svmClassification_15_10_2015_40_train_60_test_10_cv');
+% E = endMembers;
+% alphas = FCLSU_fast(testData,E)'; 
+% alphasT = alphas';
+% alphaLabels = getLabels(alphasT);
+% EVAL_APHA = calcAccuracy(testLabels,alphaLabels);
+% abundance accuracy of 41.43 %
+
+%% Plot abundance grayscale images
+[indian_pines_gt,indian_pines,numBands] = load_Indian_Pines_image();
+load('endMembers_mean_15_10_2015');
+E = endMembers;
+reIndianPines = reshape(indian_pines,145*145,166); % N x d = 21025 x 166 indian pines reshaped
+alphas = FCLSU_fast(reIndianPines,E)'; 
+
+for i = 1: size(alphas,1)
+   subplot(4,4,i)
+   imagesc(reshape(alphas(i,:),145,145));
+end
+
+figure;
+for i = 1: size(alphas,1)
+   subplot(4,4,i)
+   imagesc(indian_pines_gt == i);
+end
+% imagesc(reshape(indian_pines_gt,145,145))
 
 % EVAL_SVM = calcAccuracy(testLabels,predict_label);
 % 
