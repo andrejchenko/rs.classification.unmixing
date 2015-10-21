@@ -111,6 +111,31 @@ function main_fclsu_fast
 % EVAL_APHA = calcAccuracy(testLabels,alphaLabels);
 % abundance accuracy of 41.43 %
 
+
+%% Check if the mean spectra from the classes -> the endmembers are close to each other
+% load('endMembers_mean_15_10_2015');
+% load('svmClassification_15_10_2015_40_train_60_test_10_cv');
+% E = endMembers;
+% dist = meanDistances(endMembers);
+% Certain class means are very close -> reason for missclassifications -
+% false positives. Close class means -> not a good selection of endmembers.
+% In the selection process of endmembers we should take into account not 
+% only the mean spectra but the variance/covariance of each class which 
+% describe the shape of the class.
+
+% Check if the mean spectra -> the endmembers are orthogonal to each other
+
+%% Plot and compare the original spectra - original pixels with the reconstructed pixels: x = E*alpha
+%  plottingFunctions();
+
+%% Project test pixels/spectra into the endmember space y = E'*x, dimensons: pxN = pxd * dxN
+%  Endmembers are the mean class pixels/spectra computed from the training
+%  pixels/spectra
+%  Project endmembers to endmembers space as well: E = E'*E;
+%  Do the unmixing on the projected test pixels/spectra y. We get the
+%  abundance values for the projected test pixels.
+projectSpectra();
+
 %% Plot abundance grayscale images
 [indian_pines_gt,indian_pines,numBands] = load_Indian_Pines_image();
 load('endMembers_mean_15_10_2015');
@@ -128,8 +153,8 @@ for i = 1: size(alphas,1)
    subplot(4,4,i)
    imagesc(indian_pines_gt == i);
 end
-% imagesc(reshape(indian_pines_gt,145,145))
 
+stop = 1;
 % EVAL_SVM = calcAccuracy(testLabels,predict_label);
 % 
 % w = 0.8; % weight the svm classification and unmixing method: w*svm + (1 - w)*abundance
