@@ -126,7 +126,7 @@ function main_fclsu_fast
 % Check if the mean spectra -> the endmembers are orthogonal to each other
 
 %% Plot and compare the original spectra - original pixels with the reconstructed pixels: x = E*alpha
-%  plottingFunctions();
+   plottingFunctions();
 
 %% Project test pixels/spectra into the endmember space y = E'*x, dimensons: pxN = pxd * dxN
 %  Endmembers are the mean class pixels/spectra computed from the training
@@ -134,7 +134,12 @@ function main_fclsu_fast
 %  Project endmembers to endmembers space as well: E = E'*E;
 %  Do the unmixing on the projected test pixels/spectra y. We get the
 %  abundance values for the projected test pixels.
-projectSpectra();
+%  projectSpectra();
+
+%% Project the endmembers to the covariance space from all training pixels
+%  Project the test data to the same covariance space and do the unmixing
+%  in that space
+    covSpace();
 
 %% Plot abundance grayscale images
 [indian_pines_gt,indian_pines,numBands] = load_Indian_Pines_image();
