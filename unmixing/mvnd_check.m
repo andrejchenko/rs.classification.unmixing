@@ -15,24 +15,30 @@ function mvnd_check()
      [trainMatrixRe,testMatrixRe,trainLabelsRe,testLabelsRe,trainDataRe,testDataRe,means] = trainDataModify();
      % Calculate the distances of each training pixel in a specific class
      % to its mean
-     
+
      for i = 1:15
          % for i = 1:size(trainMatrixRe,2)
          dist = [];
+         chiAlphaInputs = [];
+         n = size(trainMatrixRe{i},1);
          if((i==1)||(i==7) ||(i==9))
              ;
          else
              C = cov(trainMatrixRe{i});
-             for j = 1: size(trainMatrixRe{i},1)
+             for j = 1:n
                  x = trainMatrixRe{i}(j,:)';
                  d = sqrt((x-means(:,i))'*inv(C)*(x-means(:,i)));
                  dist = [dist; d*d];
+                 
+                 index = (n-j+(1/2))/n;
+                 chiAlphaInputs = [chiAlphaInputs; index];
              end
          end
          
          % sorting the distance vector
-         sortedDist = sort(dist);
-         chiValues = chi2pdf(sortedDist,size(trainMatrixRe{i},1));
+         sortedDist = sort(dist,'ascend');
+         %chiValues = chi2pdf(sortedDist,size(trainMatrixRe{i},1));
+         chiValues = chi2pdf(chiAlphaInputs,n);
          % chiValues = chi2pdf(sortedDist,166);
          figure;
          plot(chiValues,sortedDist,'r*');
