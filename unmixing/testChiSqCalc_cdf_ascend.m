@@ -1,4 +1,4 @@
-function testChiSqCalc()
+function testChiSqCalc_cdf_ascend()
     % vec = normrnd(1:571,1./(1:571))';
     vec = normrnd(0,1,[1 571]);
     meanVal = mean(vec);
@@ -18,11 +18,20 @@ function testChiSqCalc()
     end
     
     sortedDist = sort(dist,'ascend');
-    chiValues = chi2pdf(chiAlphaInputs,size(vec,1));
+     
+    chiValues = chi2cdf(chiAlphaInputs,size(vec,1));
+    % chiValues = chi2cdf(chiAlphaInputs,size(vec,1));
+    % chiSqValues = chiValues.*chiValues;
+    chiValues = fliplr(chiValues');
+    chiValues = chiValues';
+    
     % hist(vec);
     % chiValues = chi2pdf(sortedDist,1);
     % chiValues = chi2pdf(sortedDist,166);
     figure;
-    plot(chiValues,sortedDist,'r-');
+    % plot(chiSqValues,sortedDist, 'r-');
+    plot(chiValues,sortedDist, 'r-');
+    xlabel('chi square values') % x-axis label
+    ylabel('sorted distances') % y-axis label
     stop = 1;
 end

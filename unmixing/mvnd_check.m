@@ -37,11 +37,22 @@ function mvnd_check()
          
          % sorting the distance vector
          sortedDist = sort(dist,'ascend');
+         %sortedDist = sort(dist,'descend');
+
          %chiValues = chi2pdf(sortedDist,size(trainMatrixRe{i},1));
-         chiValues = chi2pdf(chiAlphaInputs,n);
+         % chiValues = chi2pdf(chiAlphaInputs,n);
+          chiValues = chi2pdf(chiAlphaInputs,166);
+         % chiValues = chi2cdf(chiAlphaInputs,166);
+         % chiSqValues = chiValues.*chiValues;
          % chiValues = chi2pdf(sortedDist,166);
-         figure;
-         plot(chiValues,sortedDist,'r*');
+         if(size(sortedDist,1)==0)
+             ;
+         else
+             figure;
+             plot(chiValues,sortedDist, 'r-');
+             xlabel('chi square values') % x-axis label
+             ylabel('sorted distances') % y-axis label
+             axis([0,max(chiValues),0,max(sortedDist)])
          stop = 1;
      end
     stop = 1;

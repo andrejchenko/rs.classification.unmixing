@@ -13,11 +13,12 @@ function [predict_label, accuracy, prob_values] = svmClassification(trainData,tr
     cmd = ['-s 0 -t 2 -c ', num2str(bestC), ' -g ', num2str(bestG), ' -b 1'];
     model = libsvmtrain(trainLabels, trainData, cmd);
 
-    save svm_model_15_10_2015 model
+    save svm_model_16_10_2015 model
     % Use the SVM model to classify the data
     [predict_label, accuracy, prob_values] = libsvmpredict(testLabels, testData, model, '-b 1'); % run the SVM model on the test data
     time = toc;
-    save svmClassification_16_10_2015_40_train_60_test_10_cv trainData  trainLabels testData testLabels time predict_label accuracy prob_values
+    %save svmClassification_10_11_2015_5Pix_train_Rest_test_10_cv trainData  trainLabels testData testLabels time predict_label accuracy prob_values
+    save svmModel  model
     end
 
 function [bestG,bestC] = selectParams(trainData,trainLabels)
