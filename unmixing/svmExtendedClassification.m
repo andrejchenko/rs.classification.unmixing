@@ -1,7 +1,7 @@
 %%Train the libsvm classifier including the most informative - neighbouring pixels and classify the test pixels
 
 function [predict_label, accuracy, prob_values] = svmExtendedClassification(trainData,trainLabels, testData, testLabels,info_candidates_PerClass)
-numClasses = 15;
+numClasses = 16;
     for i=1:numClasses
         trainData = [trainData; info_candidates_PerClass{i}];
         labels = ones(size(info_candidates_PerClass{i},1),1);

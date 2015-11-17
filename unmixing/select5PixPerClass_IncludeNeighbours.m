@@ -2,7 +2,7 @@ function [trainData,trainLabels, testData, testLabels,endMembers,trainMatrix,tes
 
 %% Find the indices of each class value from the ground truth indian pines
 %  Store the indices for all classes in a classIndex variable
-numClasses = 15;
+numClasses = 16;
 for i = 1:(numClasses)
     classMatrix = indian_pines_gt(:,:) == i;  
     class{i} = classMatrix;
