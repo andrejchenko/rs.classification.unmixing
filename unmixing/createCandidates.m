@@ -3,8 +3,8 @@ numClasses = 15;
 
 counter = 1;
 for a = 1: numClasses
-    candidatesPerPix = [];  candidatesLabPerPix = []; post_prob_values_ref = [];
     for z = 1: 5
+        candidatesPerPix = [];  candidatesLabPerPix = []; post_prob_values_ref = [];
         mat = cell2mat(neighbours{a}(z));
         numNeighPix = size(mat,1);
         for j = 1: numNeighPix
