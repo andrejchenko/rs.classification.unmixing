@@ -1,14 +1,6 @@
 %%Train the libsvm classifier including the most informative - neighbouring pixels and classify the test pixels
 
-function [predict_label, accuracy, prob_values] = svmExtendedClassification(trainData,trainLabels, testData, testLabels,info_candidates_PerClass)
-numClasses = 16;
-    for i=1:numClasses
-        trainData = [trainData; info_candidates_PerClass{i}];
-        labels = ones(size(info_candidates_PerClass{i},1),1);
-        labels = labels*i;
-        trainLabels = [trainLabels; labels];
-    end
-    
+function [predict_label, accuracy, prob_values] = svmExtendedClassification(trainData,trainLabels, testData, testLabels)
     tic;
     % Select the optimum parameters: gamma -g and cots -c from the higest cross validation accuracy 
     [bestG,bestC] = selectParams(trainData,trainLabels);

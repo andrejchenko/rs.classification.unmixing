@@ -22,7 +22,7 @@
 %     and added to the D_u, the labeled set D_l is extended:
 %     D_l = D_l + D_u and this extended set D_l is used for training the SVM classifier
 
-function [neighbours,neighboursData] = getNeighbours(trainPixIndClass,testPixIndClass,numClasses,indian_pines,classTrainIndex)
+function [neighbours,neighboursData,testPixIndClass] = getNeighbours(trainPixIndClass,testPixIndClass,numClasses,indian_pines,classTrainIndex)
 size1 = size(indian_pines,1);
 size2 = size(indian_pines,2);
 
@@ -49,7 +49,7 @@ for i = 1:(numClasses)
                 end
             end
         end
-        % Use these neighbouring pixels for each class as testing pixels and classify them in order to be able to
+        % In the next section we use these neighbouring pixels for each class as testing pixels and classify them in order to be able to
         % obtain a label for them and posterior probabilities 
 end
 end

@@ -1,5 +1,5 @@
 function info_candidates_PerClass = findMostInformative(candidates_Pix,candidates_LabPix,candidates_postProb)
-numClasses = 15;
+numClasses = 16;
 
 for i = 1:numClasses
     info_candidates = [];

@@ -10,10 +10,25 @@ function lowNumPixForSVM_SimpleCombination
 [trainData,trainLabels, testData, testLabels,endMembers,trainMatrix,testMatrix,neighbours,neighData,neighMatrix,testNeighLabels] = select5PixPerClass_IncludeNeighbours(indian_pines,indian_pines_gt,numBands);
 
 % SVM probabilistic classification
-[predict_label, accuracy, prob_values] = svmClassification(trainData,trainLabels, testData, testLabels);
-% svm classification accuracy of 36.4%
-str = ['SVM accuracy: ', num2str(accuracy(1))];
+% Run the SVM classification 10 times in order to calculate the average SVM
+% accuracy with the normalized data
+
+averageAccuracy = 0;
+for i =1:100
+    [predict_label, accuracy, prob_values] = svmClassification(trainData,trainLabels, testData, testLabels);
+    % svm classification accuracy of 36.4%
+    averageAccuracy = averageAccuracy + accuracy(1);
+    str = ['Iteration', num2str(i),', SVM accuracy: ', num2str(accuracy(1))];
+    str
+end
+averageAccuracy = averageAccuracy/100;
+str = ['Average SVM accuracy after 10 loops: ', num2str(averageAccuracy)];
 str
+
+% [predict_label, accuracy, prob_values] = svmClassification(trainData,trainLabels, testData, testLabels);
+% % svm classification accuracy of 36.4%
+% str = ['SVM accuracy: ', num2str(accuracy(1))];
+% str
 
 %% Self Learning using Breaking Ties (BT) method
 
@@ -29,19 +44,44 @@ info_candidates_PerClass = findMostInformative(candidates_Pix,candidates_LabPix,
 % Extend the training set of the SVM model using the D_u - most informative (neighbouring) pixels
 % Re-train the SVM model with this extended set
 
-[predict_labelE, accuracyE, prob_valuesE] = svmExtendedClassification(trainData,trainLabels, testData, testLabels,info_candidates_PerClass);
+numClasses = 16;
+for i=1:numClasses
+    trainMatrix{i} = [];
+    trainData = [trainData; info_candidates_PerClass{i}];
+    labels = ones(size(info_candidates_PerClass{i},1),1);
+    labels = labels*i;
+    trainLabels = [trainLabels; labels];
+    trainMatrix{i} = trainData;
+end
+
+% Re-Calculate the endmembers using not only the 5 pixels per class but the
+% extended training set - D_u - the unlabled pixels as well
+endMembers_Ext = getEndmembers(trainMatrix,numClasses);
+
+[predict_labelE, accuracyE, prob_valuesE] = svmExtendedClassification(trainData,trainLabels, testData, testLabels);
 str = ['Extended SVM accuracy: ', num2str(accuracyE(1))];
 str
 
-%% Unmixing
-
+%% Unmixing 
+% Using only the low number of labeled training pixels to calculate the
+% mean end member
 E = endMembers;
 alphas = FCLSU_fast(testData,E)'; 
 alphasT = alphas';
 alphaLabels = getLabels(alphasT);
 EVAL_APHA = calcAccuracy(testLabels,alphaLabels);
 % abundance accuracy of 37.4%
-str = ['Unmixing accuracy: ', num2str(EVAL_APHA(1)*100)];
+str = ['Unmixing accuracy using low number of training pixels: ', num2str(EVAL_APHA(1)*100)];
+str
+
+% Using the extended set of training pixels to calculate the mean endmember
+E = endMembers_Ext;
+alphas = FCLSU_fast(testData,E)'; 
+alphasT = alphas';
+alphaLabels = getLabels(alphasT);
+EVAL_APHA = calcAccuracy(testLabels,alphaLabels);
+% abundance accuracy of 37.4%
+str = ['Unmixing accuracy using the extended training pixels: ', num2str(EVAL_APHA(1)*100)];
 str
 
 %% Simple weighted combination of SVM classification and unmixing without BT

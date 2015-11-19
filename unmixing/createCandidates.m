@@ -1,5 +1,5 @@
 function [candidates,candidateLabels,post_prob_values_refPerClass,candidates_Pix,candidates_LabPix,candidates_postProb] = createCandidates(trainLabels,neighData,predict_label_neigh,neighbours,post_prob_values)
-numClasses = 15;
+numClasses = 16;
 
 counter = 1;
 for a = 1: numClasses

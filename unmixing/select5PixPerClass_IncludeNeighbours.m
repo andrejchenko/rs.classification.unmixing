@@ -68,9 +68,37 @@ for i = 1:(numClasses)
 end
 
 %getNeighbours method
-[neighbours,neighboursData] = getNeighbours(trainPixIndClass,testPixIndClass,numClasses,indian_pines,classTrainIndex);
+[neighbours,neighboursData,testPixIndClass] = getNeighbours(trainPixIndClass,testPixIndClass,numClasses,indian_pines,classTrainIndex);
+
+% Normalization of the training, testing and neighbourhood data
+testLabels = [];
+for i =1: numClasses
+    testMatrix{i} = [];
+    neighbourMatrix = [];
+    for j = 1: size(testPixIndClass{i},1)
+            testPixSpecVector = indian_pines(testPixIndClass{i}(j,1),testPixIndClass{i}(j,2),:);
+            testPixSpecVector = reshape(testPixSpecVector, 1,numBands);
+            testMatrix{i} = [testMatrix{i}; testPixSpecVector]; % each trainMatrix is N x d  
+            testLabels = [testLabels; i];
+    end
+    % Normalisation of the training pixels
+    trainMatrix{i} = normalize(trainMatrix{i});
+    % Normalisation of the test data:
+    testMatrix{i} = normalize(testMatrix{i});
+    % Neighbour data should be normalized too:
+    for j=1:size(neighboursData{i},2)  %-> 5 from 1x5 cell
+        neighbourMatrix = [neighbourMatrix; neighboursData{i}{j}];
+        neighboursData{i}{j} = [];
+    end
+    neighboursData{i} = neighbourMatrix;
+    neighboursData{i} = normalize(neighboursData{i});
+end
 
 % save trainingAndTestMatrices_10_11_2015 trainMatrix testMatrix
+
+% The trainMatrix and the neighboursData are already normalized, so we don't
+% have to normalize here anything, we just append the neighboursData
+% to the trainMatrix
 trainData = [];
 testData = [];
 testNeighbourData = [];
@@ -78,18 +106,10 @@ neighData = [];
 for i = 1:(numClasses)
     trainData = [trainData; trainMatrix{i}(:,:)];
     testData = [testData; testMatrix{i}(:,:)];
-    testNeighbourData = [testNeighbourData; neighboursData{i}(:,:)];  
-    testNeighbourDataPerClass = testNeighbourData(i,:);
-    neighDataPerClass = [];
-    for j = 1:5
-        neighDataPerClass = [neighDataPerClass; cell2mat(testNeighbourDataPerClass(1,j))];
-    end
-    neighMatrix{i} = neighDataPerClass;
+    neighMatrix{i} = neighboursData{i};
     neighData = [neighData;  neighMatrix{i}];
 end
 testNeighLabels = zeros(size(neighData,1),1);
-
-
 
 
 %% Generate the endmembers
