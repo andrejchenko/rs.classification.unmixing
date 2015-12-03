@@ -1,0 +1,601 @@
+Iteration: 1, Sunsal unmixing accuracy: 60.723 with lambda: 0.000  <- max
+Iteration: 1, Sunsal unmixing accuracy: 57.417 with lambda: 0.100
+Iteration: 1, Sunsal unmixing accuracy: 56.167 with lambda: 0.200
+Iteration: 1, Sunsal unmixing accuracy: 55.341 with lambda: 0.300
+Iteration: 1, Sunsal unmixing accuracy: 55.031 with lambda: 0.400
+Iteration: 1, Sunsal unmixing accuracy: 54.483 with lambda: 0.500
+Iteration: 1, Sunsal unmixing accuracy: 54.101 with lambda: 0.600                 
+Iteration: 1, Sunsal unmixing accuracy: 54.236 with lambda: 0.700
+Iteration: 1, Sunsal unmixing accuracy: 54.360 with lambda: 0.800
+Iteration: 1, Sunsal unmixing accuracy: 54.039 with lambda: 0.900
+Iteration: 1, Sunsal unmixing accuracy: 0.248 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 2, Sunsal unmixing accuracy: 53.432 with lambda: 0.000
+Iteration: 2, Sunsal unmixing accuracy: 55.596 with lambda: 0.100
+Iteration: 2, Sunsal unmixing accuracy: 55.637 with lambda: 0.200
+Iteration: 2, Sunsal unmixing accuracy: 55.751 with lambda: 0.300
+Iteration: 2, Sunsal unmixing accuracy: 55.751 with lambda: 0.400
+Iteration: 2, Sunsal unmixing accuracy: 55.782 with lambda: 0.500 <- max 				
+Iteration: 2, Sunsal unmixing accuracy: 55.451 with lambda: 0.600
+Iteration: 2, Sunsal unmixing accuracy: 54.985 with lambda: 0.700
+Iteration: 2, Sunsal unmixing accuracy: 54.674 with lambda: 0.800
+Iteration: 2, Sunsal unmixing accuracy: 54.385 with lambda: 0.900
+Iteration: 2, Sunsal unmixing accuracy: 0.217 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 3, Sunsal unmixing accuracy: 56.288 with lambda: 0.000 <- max
+Iteration: 3, Sunsal unmixing accuracy: 49.562 with lambda: 0.100					
+Iteration: 3, Sunsal unmixing accuracy: 50.387 with lambda: 0.200
+Iteration: 3, Sunsal unmixing accuracy: 50.604 with lambda: 0.300
+Iteration: 3, Sunsal unmixing accuracy: 50.531 with lambda: 0.400
+Iteration: 3, Sunsal unmixing accuracy: 51.119 with lambda: 0.500
+Iteration: 3, Sunsal unmixing accuracy: 51.852 with lambda: 0.600
+Iteration: 3, Sunsal unmixing accuracy: 52.553 with lambda: 0.700
+Iteration: 3, Sunsal unmixing accuracy: 53.131 with lambda: 0.800
+Iteration: 3, Sunsal unmixing accuracy: 53.307 with lambda: 0.900
+Iteration: 3, Sunsal unmixing accuracy: 0.217 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 4, Sunsal unmixing accuracy: 52.226 with lambda: 0.000
+Iteration: 4, Sunsal unmixing accuracy: 51.772 with lambda: 0.100
+Iteration: 4, Sunsal unmixing accuracy: 52.257 with lambda: 0.200
+Iteration: 4, Sunsal unmixing accuracy: 53.311 with lambda: 0.300
+Iteration: 4, Sunsal unmixing accuracy: 53.383 with lambda: 0.400
+Iteration: 4, Sunsal unmixing accuracy: 53.610 with lambda: 0.500 <- max				
+Iteration: 4, Sunsal unmixing accuracy: 53.610 with lambda: 0.600 <- max
+Iteration: 4, Sunsal unmixing accuracy: 53.610 with lambda: 0.700 <- max
+Iteration: 4, Sunsal unmixing accuracy: 53.559 with lambda: 0.800
+Iteration: 4, Sunsal unmixing accuracy: 53.507 with lambda: 0.900
+Iteration: 4, Sunsal unmixing accuracy: 0.134 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 5, Sunsal unmixing accuracy: 53.515 with lambda: 0.000 <- max
+Iteration: 5, Sunsal unmixing accuracy: 50.993 with lambda: 0.100
+Iteration: 5, Sunsal unmixing accuracy: 51.282 with lambda: 0.200
+Iteration: 5, Sunsal unmixing accuracy: 51.210 with lambda: 0.300
+Iteration: 5, Sunsal unmixing accuracy: 50.837 with lambda: 0.400
+Iteration: 5, Sunsal unmixing accuracy: 50.052 with lambda: 0.500					
+Iteration: 5, Sunsal unmixing accuracy: 49.721 with lambda: 0.600
+Iteration: 5, Sunsal unmixing accuracy: 49.907 with lambda: 0.700
+Iteration: 5, Sunsal unmixing accuracy: 49.411 with lambda: 0.800
+Iteration: 5, Sunsal unmixing accuracy: 49.287 with lambda: 0.900
+Iteration: 5, Sunsal unmixing accuracy: 0.196 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 6, Sunsal unmixing accuracy: 55.037 with lambda: 0.000 <- max
+Iteration: 6, Sunsal unmixing accuracy: 50.770 with lambda: 0.100
+Iteration: 6, Sunsal unmixing accuracy: 51.999 with lambda: 0.200
+Iteration: 6, Sunsal unmixing accuracy: 52.051 with lambda: 0.300
+Iteration: 6, Sunsal unmixing accuracy: 51.028 with lambda: 0.400
+Iteration: 6, Sunsal unmixing accuracy: 51.803 with lambda: 0.500
+Iteration: 6, Sunsal unmixing accuracy: 52.164 with lambda: 0.600
+Iteration: 6, Sunsal unmixing accuracy: 52.330 with lambda: 0.700					
+Iteration: 6, Sunsal unmixing accuracy: 52.051 with lambda: 0.800
+Iteration: 6, Sunsal unmixing accuracy: 51.948 with lambda: 0.900
+Iteration: 6, Sunsal unmixing accuracy: 0.227 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 7, Sunsal unmixing accuracy: 55.647 with lambda: 0.000 
+Iteration: 7, Sunsal unmixing accuracy: 45.655 with lambda: 0.100
+Iteration: 7, Sunsal unmixing accuracy: 49.457 with lambda: 0.200
+Iteration: 7, Sunsal unmixing accuracy: 51.586 with lambda: 0.300
+Iteration: 7, Sunsal unmixing accuracy: 51.049 with lambda: 0.400
+Iteration: 7, Sunsal unmixing accuracy: 52.971 with lambda: 0.500
+Iteration: 7, Sunsal unmixing accuracy: 55.048 with lambda: 0.600						
+Iteration: 7, Sunsal unmixing accuracy: 56.732 with lambda: 0.700 <- max
+Iteration: 7, Sunsal unmixing accuracy: 57.373 with lambda: 0.800
+Iteration: 7, Sunsal unmixing accuracy: 57.880 with lambda: 0.900
+Iteration: 7, Sunsal unmixing accuracy: 0.248 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 8, Sunsal unmixing accuracy: 49.339 with lambda: 0.000
+Iteration: 8, Sunsal unmixing accuracy: 48.472 with lambda: 0.100
+Iteration: 8, Sunsal unmixing accuracy: 48.637 with lambda: 0.200
+Iteration: 8, Sunsal unmixing accuracy: 48.844 with lambda: 0.300
+Iteration: 8, Sunsal unmixing accuracy: 49.401 with lambda: 0.400
+Iteration: 8, Sunsal unmixing accuracy: 49.597 with lambda: 0.500
+Iteration: 8, Sunsal unmixing accuracy: 49.917 with lambda: 0.600				
+Iteration: 8, Sunsal unmixing accuracy: 49.990 with lambda: 0.700
+Iteration: 8, Sunsal unmixing accuracy: 50.186 with lambda: 0.800 <- max
+Iteration: 8, Sunsal unmixing accuracy: 50.176 with lambda: 0.900
+Iteration: 8, Sunsal unmixing accuracy: 0.206 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 9, Sunsal unmixing accuracy: 52.160 with lambda: 0.000 <- max
+Iteration: 9, Sunsal unmixing accuracy: 51.368 with lambda: 0.100
+Iteration: 9, Sunsal unmixing accuracy: 51.234 with lambda: 0.200
+Iteration: 9, Sunsal unmixing accuracy: 51.450 with lambda: 0.300
+Iteration: 9, Sunsal unmixing accuracy: 50.740 with lambda: 0.400
+Iteration: 9, Sunsal unmixing accuracy: 50.926 with lambda: 0.500					
+Iteration: 9, Sunsal unmixing accuracy: 50.967 with lambda: 0.600
+Iteration: 9, Sunsal unmixing accuracy: 51.131 with lambda: 0.700
+Iteration: 9, Sunsal unmixing accuracy: 51.090 with lambda: 0.800
+Iteration: 9, Sunsal unmixing accuracy: 51.049 with lambda: 0.900
+Iteration: 9, Sunsal unmixing accuracy: 0.267 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 10, Sunsal unmixing accuracy: 54.988 with lambda: 0.000 <- max
+Iteration: 10, Sunsal unmixing accuracy: 53.759 with lambda: 0.100
+Iteration: 10, Sunsal unmixing accuracy: 52.220 with lambda: 0.200
+Iteration: 10, Sunsal unmixing accuracy: 51.910 with lambda: 0.300
+Iteration: 10, Sunsal unmixing accuracy: 51.673 with lambda: 0.400
+Iteration: 10, Sunsal unmixing accuracy: 52.107 with lambda: 0.500
+Iteration: 10, Sunsal unmixing accuracy: 51.972 with lambda: 0.600						
+Iteration: 10, Sunsal unmixing accuracy: 51.921 with lambda: 0.700
+Iteration: 10, Sunsal unmixing accuracy: 51.673 with lambda: 0.800
+Iteration: 10, Sunsal unmixing accuracy: 51.384 with lambda: 0.900
+Iteration: 10, Sunsal unmixing accuracy: 0.217 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 11, Sunsal unmixing accuracy: 56.707 with lambda: 0.000
+Iteration: 11, Sunsal unmixing accuracy: 58.123 with lambda: 0.100 <- max
+Iteration: 11, Sunsal unmixing accuracy: 55.715 with lambda: 0.200
+Iteration: 11, Sunsal unmixing accuracy: 55.746 with lambda: 0.300
+Iteration: 11, Sunsal unmixing accuracy: 56.387 with lambda: 0.400
+Iteration: 11, Sunsal unmixing accuracy: 56.780 with lambda: 0.500
+Iteration: 11, Sunsal unmixing accuracy: 57.214 with lambda: 0.600
+Iteration: 11, Sunsal unmixing accuracy: 57.265 with lambda: 0.700					
+Iteration: 11, Sunsal unmixing accuracy: 57.110 with lambda: 0.800
+Iteration: 11, Sunsal unmixing accuracy: 56.945 with lambda: 0.900
+Iteration: 11, Sunsal unmixing accuracy: 0.207 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 12, Sunsal unmixing accuracy: 52.969 with lambda: 0.000
+Iteration: 12, Sunsal unmixing accuracy: 51.324 with lambda: 0.100
+Iteration: 12, Sunsal unmixing accuracy: 56.042 with lambda: 0.200
+Iteration: 12, Sunsal unmixing accuracy: 57.345 with lambda: 0.300
+Iteration: 12, Sunsal unmixing accuracy: 56.932 with lambda: 0.400					
+Iteration: 12, Sunsal unmixing accuracy: 57.811 with lambda: 0.500 
+Iteration: 12, Sunsal unmixing accuracy: 58.101 with lambda: 0.600
+Iteration: 12, Sunsal unmixing accuracy: 58.204 with lambda: 0.700 <- max
+Iteration: 12, Sunsal unmixing accuracy: 57.904 with lambda: 0.800
+Iteration: 12, Sunsal unmixing accuracy: 57.552 with lambda: 0.900
+Iteration: 12, Sunsal unmixing accuracy: 0.197 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 13, Sunsal unmixing accuracy: 52.753 with lambda: 0.000
+Iteration: 13, Sunsal unmixing accuracy: 53.775 with lambda: 0.100 <- max
+Iteration: 13, Sunsal unmixing accuracy: 53.672 with lambda: 0.200					
+Iteration: 13, Sunsal unmixing accuracy: 53.156 with lambda: 0.300
+Iteration: 13, Sunsal unmixing accuracy: 53.579 with lambda: 0.400
+Iteration: 13, Sunsal unmixing accuracy: 53.321 with lambda: 0.500
+Iteration: 13, Sunsal unmixing accuracy: 52.773 with lambda: 0.600
+Iteration: 13, Sunsal unmixing accuracy: 52.247 with lambda: 0.700
+Iteration: 13, Sunsal unmixing accuracy: 51.782 with lambda: 0.800
+Iteration: 13, Sunsal unmixing accuracy: 51.358 with lambda: 0.900
+Iteration: 13, Sunsal unmixing accuracy: 0.176 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 14, Sunsal unmixing accuracy: 47.899 with lambda: 0.000
+Iteration: 14, Sunsal unmixing accuracy: 47.021 with lambda: 0.100
+Iteration: 14, Sunsal unmixing accuracy: 49.737 with lambda: 0.200
+Iteration: 14, Sunsal unmixing accuracy: 50.780 with lambda: 0.300
+Iteration: 14, Sunsal unmixing accuracy: 49.840 with lambda: 0.400					
+Iteration: 14, Sunsal unmixing accuracy: 50.377 with lambda: 0.500
+Iteration: 14, Sunsal unmixing accuracy: 51.162 with lambda: 0.600
+Iteration: 14, Sunsal unmixing accuracy: 51.606 with lambda: 0.700 <- max
+Iteration: 14, Sunsal unmixing accuracy: 51.564 with lambda: 0.800
+Iteration: 14, Sunsal unmixing accuracy: 51.306 with lambda: 0.900
+Iteration: 14, Sunsal unmixing accuracy: 0.196 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 15, Sunsal unmixing accuracy: 52.869 with lambda: 0.000
+Iteration: 15, Sunsal unmixing accuracy: 42.962 with lambda: 0.100
+Iteration: 15, Sunsal unmixing accuracy: 53.674 with lambda: 0.200
+Iteration: 15, Sunsal unmixing accuracy: 54.252 with lambda: 0.300 <- max
+Iteration: 15, Sunsal unmixing accuracy: 54.004 with lambda: 0.400 
+Iteration: 15, Sunsal unmixing accuracy: 53.467 with lambda: 0.500
+Iteration: 15, Sunsal unmixing accuracy: 53.591 with lambda: 0.600				
+Iteration: 15, Sunsal unmixing accuracy: 53.922 with lambda: 0.700
+Iteration: 15, Sunsal unmixing accuracy: 53.787 with lambda: 0.800
+Iteration: 15, Sunsal unmixing accuracy: 53.282 with lambda: 0.900
+Iteration: 15, Sunsal unmixing accuracy: 0.175 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 16, Sunsal unmixing accuracy: 54.003 with lambda: 0.000 <- max
+Iteration: 16, Sunsal unmixing accuracy: 51.634 with lambda: 0.100 
+Iteration: 16, Sunsal unmixing accuracy: 52.607 with lambda: 0.200
+Iteration: 16, Sunsal unmixing accuracy: 52.524 with lambda: 0.300
+Iteration: 16, Sunsal unmixing accuracy: 51.252 with lambda: 0.400					
+Iteration: 16, Sunsal unmixing accuracy: 51.200 with lambda: 0.500
+Iteration: 16, Sunsal unmixing accuracy: 51.086 with lambda: 0.600
+Iteration: 16, Sunsal unmixing accuracy: 50.672 with lambda: 0.700
+Iteration: 16, Sunsal unmixing accuracy: 50.259 with lambda: 0.800
+Iteration: 16, Sunsal unmixing accuracy: 49.731 with lambda: 0.900
+Iteration: 16, Sunsal unmixing accuracy: 0.145 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 17, Sunsal unmixing accuracy: 56.857 with lambda: 0.000 <- max
+Iteration: 17, Sunsal unmixing accuracy: 56.029 with lambda: 0.100
+Iteration: 17, Sunsal unmixing accuracy: 53.939 with lambda: 0.200
+Iteration: 17, Sunsal unmixing accuracy: 53.711 with lambda: 0.300
+Iteration: 17, Sunsal unmixing accuracy: 54.280 with lambda: 0.400
+Iteration: 17, Sunsal unmixing accuracy: 54.477 with lambda: 0.500					
+Iteration: 17, Sunsal unmixing accuracy: 54.549 with lambda: 0.700
+Iteration: 17, Sunsal unmixing accuracy: 54.415 with lambda: 0.800
+Iteration: 17, Sunsal unmixing accuracy: 54.187 with lambda: 0.900
+Iteration: 17, Sunsal unmixing accuracy: 0.228 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 18, Sunsal unmixing accuracy: 60.118 with lambda: 0.000 <- max
+Iteration: 18, Sunsal unmixing accuracy: 56.735 with lambda: 0.100
+Iteration: 18, Sunsal unmixing accuracy: 57.642 with lambda: 0.200					
+Iteration: 17, Sunsal unmixing accuracy: 54.591 with lambda: 0.600
+Iteration: 18, Sunsal unmixing accuracy: 57.900 with lambda: 0.300
+Iteration: 18, Sunsal unmixing accuracy: 57.354 with lambda: 0.400
+Iteration: 18, Sunsal unmixing accuracy: 57.580 with lambda: 0.500
+Iteration: 18, Sunsal unmixing accuracy: 57.477 with lambda: 0.600
+Iteration: 18, Sunsal unmixing accuracy: 57.271 with lambda: 0.700
+Iteration: 18, Sunsal unmixing accuracy: 57.075 with lambda: 0.800
+Iteration: 18, Sunsal unmixing accuracy: 56.900 with lambda: 0.900
+Iteration: 18, Sunsal unmixing accuracy: 0.258 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 19, Sunsal unmixing accuracy: 58.859 with lambda: 0.000 <- max
+Iteration: 19, Sunsal unmixing accuracy: 53.029 with lambda: 0.100
+Iteration: 19, Sunsal unmixing accuracy: 51.530 with lambda: 0.200
+Iteration: 19, Sunsal unmixing accuracy: 51.685 with lambda: 0.300						
+Iteration: 19, Sunsal unmixing accuracy: 52.305 with lambda: 0.400
+Iteration: 19, Sunsal unmixing accuracy: 53.235 with lambda: 0.500
+Iteration: 19, Sunsal unmixing accuracy: 53.546 with lambda: 0.600
+Iteration: 19, Sunsal unmixing accuracy: 53.907 with lambda: 0.700
+Iteration: 19, Sunsal unmixing accuracy: 54.352 with lambda: 0.800
+Iteration: 19, Sunsal unmixing accuracy: 54.631 with lambda: 0.900
+Iteration: 19, Sunsal unmixing accuracy: 0.165 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 20, Sunsal unmixing accuracy: 56.860 with lambda: 0.000 <- max
+Iteration: 20, Sunsal unmixing accuracy: 50.626 with lambda: 0.100
+Iteration: 20, Sunsal unmixing accuracy: 52.304 with lambda: 0.200					
+Iteration: 20, Sunsal unmixing accuracy: 52.811 with lambda: 0.300
+Iteration: 20, Sunsal unmixing accuracy: 52.521 with lambda: 0.400
+Iteration: 20, Sunsal unmixing accuracy: 53.008 with lambda: 0.500
+Iteration: 20, Sunsal unmixing accuracy: 53.536 with lambda: 0.600
+Iteration: 20, Sunsal unmixing accuracy: 53.940 with lambda: 0.700
+Iteration: 20, Sunsal unmixing accuracy: 54.106 with lambda: 0.800
+Iteration: 20, Sunsal unmixing accuracy: 54.085 with lambda: 0.900
+Iteration: 20, Sunsal unmixing accuracy: 0.197 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 21, Sunsal unmixing accuracy: 59.212 with lambda: 0.000 <- max
+Iteration: 21, Sunsal unmixing accuracy: 56.035 with lambda: 0.100
+Iteration: 21, Sunsal unmixing accuracy: 53.683 with lambda: 0.200
+Iteration: 21, Sunsal unmixing accuracy: 52.703 with lambda: 0.300					
+Iteration: 21, Sunsal unmixing accuracy: 52.012 with lambda: 0.400
+Iteration: 21, Sunsal unmixing accuracy: 51.609 with lambda: 0.500
+Iteration: 21, Sunsal unmixing accuracy: 50.918 with lambda: 0.600
+Iteration: 21, Sunsal unmixing accuracy: 50.237 with lambda: 0.700
+Iteration: 21, Sunsal unmixing accuracy: 49.866 with lambda: 0.800
+Iteration: 21, Sunsal unmixing accuracy: 49.567 with lambda: 0.900
+Iteration: 21, Sunsal unmixing accuracy: 0.309 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 22, Sunsal unmixing accuracy: 56.884 with lambda: 0.000 <- max
+Iteration: 22, Sunsal unmixing accuracy: 53.802 with lambda: 0.100
+Iteration: 22, Sunsal unmixing accuracy: 55.995 with lambda: 0.200
+Iteration: 22, Sunsal unmixing accuracy: 56.181 with lambda: 0.300
+Iteration: 22, Sunsal unmixing accuracy: 55.881 with lambda: 0.400
+Iteration: 22, Sunsal unmixing accuracy: 55.591 with lambda: 0.500							
+Iteration: 22, Sunsal unmixing accuracy: 55.653 with lambda: 0.600
+Iteration: 22, Sunsal unmixing accuracy: 55.570 with lambda: 0.700
+Iteration: 22, Sunsal unmixing accuracy: 55.239 with lambda: 0.800
+Iteration: 22, Sunsal unmixing accuracy: 54.971 with lambda: 0.900
+Iteration: 22, Sunsal unmixing accuracy: 0.269 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 23, Sunsal unmixing accuracy: 56.175 with lambda: 0.000 <- max
+Iteration: 23, Sunsal unmixing accuracy: 52.406 with lambda: 0.100
+Iteration: 23, Sunsal unmixing accuracy: 55.173 with lambda: 0.200
+Iteration: 23, Sunsal unmixing accuracy: 55.648 with lambda: 0.300
+Iteration: 23, Sunsal unmixing accuracy: 55.401 with lambda: 0.400						
+Iteration: 23, Sunsal unmixing accuracy: 55.762 with lambda: 0.500
+Iteration: 23, Sunsal unmixing accuracy: 55.917 with lambda: 0.600
+Iteration: 23, Sunsal unmixing accuracy: 55.700 with lambda: 0.700
+Iteration: 23, Sunsal unmixing accuracy: 55.194 with lambda: 0.800
+Iteration: 23, Sunsal unmixing accuracy: 55.029 with lambda: 0.900
+Iteration: 23, Sunsal unmixing accuracy: 0.320 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 24, Sunsal unmixing accuracy: 48.266 with lambda: 0.000
+Iteration: 24, Sunsal unmixing accuracy: 54.147 with lambda: 0.100 <- max
+Iteration: 24, Sunsal unmixing accuracy: 53.567 with lambda: 0.200
+Iteration: 24, Sunsal unmixing accuracy: 52.656 with lambda: 0.300
+Iteration: 24, Sunsal unmixing accuracy: 52.169 with lambda: 0.400
+Iteration: 24, Sunsal unmixing accuracy: 51.455 with lambda: 0.500
+Iteration: 24, Sunsal unmixing accuracy: 50.875 with lambda: 0.600						
+Iteration: 24, Sunsal unmixing accuracy: 50.668 with lambda: 0.700
+Iteration: 24, Sunsal unmixing accuracy: 50.564 with lambda: 0.800
+Iteration: 24, Sunsal unmixing accuracy: 50.285 with lambda: 0.900
+Iteration: 24, Sunsal unmixing accuracy: 0.145 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 25, Sunsal unmixing accuracy: 54.747 with lambda: 0.000
+Iteration: 25, Sunsal unmixing accuracy: 55.970 with lambda: 0.100 <- max
+Iteration: 25, Sunsal unmixing accuracy: 55.110 with lambda: 0.200
+Iteration: 25, Sunsal unmixing accuracy: 54.301 with lambda: 0.300
+Iteration: 25, Sunsal unmixing accuracy: 53.980 with lambda: 0.400
+Iteration: 25, Sunsal unmixing accuracy: 53.783 with lambda: 0.500
+Iteration: 25, Sunsal unmixing accuracy: 53.306 with lambda: 0.600						
+Iteration: 25, Sunsal unmixing accuracy: 53.099 with lambda: 0.700
+Iteration: 25, Sunsal unmixing accuracy: 52.995 with lambda: 0.800
+Iteration: 25, Sunsal unmixing accuracy: 52.747 with lambda: 0.900
+Iteration: 25, Sunsal unmixing accuracy: 0.176 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 26, Sunsal unmixing accuracy: 59.343 with lambda: 0.000 <- max
+Iteration: 26, Sunsal unmixing accuracy: 56.028 with lambda: 0.100
+Iteration: 26, Sunsal unmixing accuracy: 56.677 with lambda: 0.200
+Iteration: 26, Sunsal unmixing accuracy: 57.099 with lambda: 0.300
+Iteration: 26, Sunsal unmixing accuracy: 57.088 with lambda: 0.400
+Iteration: 26, Sunsal unmixing accuracy: 57.583 with lambda: 0.500						
+Iteration: 26, Sunsal unmixing accuracy: 57.922 with lambda: 0.600
+Iteration: 26, Sunsal unmixing accuracy: 57.737 with lambda: 0.700
+Iteration: 26, Sunsal unmixing accuracy: 57.614 with lambda: 0.800
+Iteration: 26, Sunsal unmixing accuracy: 57.263 with lambda: 0.900
+Iteration: 26, Sunsal unmixing accuracy: 0.278 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 27, Sunsal unmixing accuracy: 52.293 with lambda: 0.000 <- max
+Iteration: 27, Sunsal unmixing accuracy: 51.206 with lambda: 0.100
+Iteration: 27, Sunsal unmixing accuracy: 51.020 with lambda: 0.200
+Iteration: 27, Sunsal unmixing accuracy: 51.351 with lambda: 0.300
+Iteration: 27, Sunsal unmixing accuracy: 51.682 with lambda: 0.400					
+Iteration: 27, Sunsal unmixing accuracy: 50.647 with lambda: 0.500
+Iteration: 27, Sunsal unmixing accuracy: 50.523 with lambda: 0.600
+Iteration: 27, Sunsal unmixing accuracy: 50.626 with lambda: 0.700
+Iteration: 27, Sunsal unmixing accuracy: 49.684 with lambda: 0.800
+Iteration: 27, Sunsal unmixing accuracy: 48.877 with lambda: 0.900
+Iteration: 27, Sunsal unmixing accuracy: 0.166 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 28, Sunsal unmixing accuracy: 56.842 with lambda: 0.000 <- max
+Iteration: 28, Sunsal unmixing accuracy: 53.919 with lambda: 0.100
+Iteration: 28, Sunsal unmixing accuracy: 54.642 with lambda: 0.200
+Iteration: 28, Sunsal unmixing accuracy: 54.993 with lambda: 0.300
+Iteration: 28, Sunsal unmixing accuracy: 55.086 with lambda: 0.400
+Iteration: 28, Sunsal unmixing accuracy: 55.479 with lambda: 0.500
+Iteration: 28, Sunsal unmixing accuracy: 55.943 with lambda: 0.600						
+Iteration: 28, Sunsal unmixing accuracy: 55.964 with lambda: 0.700
+Iteration: 28, Sunsal unmixing accuracy: 56.119 with lambda: 0.800
+Iteration: 28, Sunsal unmixing accuracy: 56.098 with lambda: 0.900
+Iteration: 28, Sunsal unmixing accuracy: 0.165 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 29, Sunsal unmixing accuracy: 52.285 with lambda: 0.000 <- max
+Iteration: 29, Sunsal unmixing accuracy: 48.728 with lambda: 0.100
+Iteration: 29, Sunsal unmixing accuracy: 46.536 with lambda: 0.200
+Iteration: 29, Sunsal unmixing accuracy: 46.949 with lambda: 0.300
+Iteration: 29, Sunsal unmixing accuracy: 47.404 with lambda: 0.400
+Iteration: 29, Sunsal unmixing accuracy: 48.283 with lambda: 0.500
+Iteration: 29, Sunsal unmixing accuracy: 49.007 with lambda: 0.600					
+Iteration: 29, Sunsal unmixing accuracy: 49.473 with lambda: 0.700
+Iteration: 29, Sunsal unmixing accuracy: 50.207 with lambda: 0.800
+Iteration: 29, Sunsal unmixing accuracy: 50.352 with lambda: 0.900
+Iteration: 29, Sunsal unmixing accuracy: 0.155 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 30, Sunsal unmixing accuracy: 55.956 with lambda: 0.000
+Iteration: 30, Sunsal unmixing accuracy: 51.968 with lambda: 0.100
+Iteration: 30, Sunsal unmixing accuracy: 54.840 with lambda: 0.200
+Iteration: 30, Sunsal unmixing accuracy: 55.998 with lambda: 0.300
+Iteration: 30, Sunsal unmixing accuracy: 55.553 with lambda: 0.400
+Iteration: 30, Sunsal unmixing accuracy: 56.452 with lambda: 0.500
+Iteration: 30, Sunsal unmixing accuracy: 56.741 with lambda: 0.600 					
+Iteration: 30, Sunsal unmixing accuracy: 57.227 with lambda: 0.700 
+Iteration: 30, Sunsal unmixing accuracy: 57.361 with lambda: 0.800 <- max
+Iteration: 30, Sunsal unmixing accuracy: 57.258 with lambda: 0.900
+Iteration: 30, Sunsal unmixing accuracy: 0.114 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 31, Sunsal unmixing accuracy: 48.090 with lambda: 0.000
+Iteration: 31, Sunsal unmixing accuracy: 50.506 with lambda: 0.100
+Iteration: 31, Sunsal unmixing accuracy: 53.273 with lambda: 0.200
+Iteration: 31, Sunsal unmixing accuracy: 53.634 with lambda: 0.300 <- max
+Iteration: 31, Sunsal unmixing accuracy: 53.262 with lambda: 0.400
+Iteration: 31, Sunsal unmixing accuracy: 52.757 with lambda: 0.500						
+Iteration: 31, Sunsal unmixing accuracy: 52.922 with lambda: 0.600
+Iteration: 31, Sunsal unmixing accuracy: 53.077 with lambda: 0.700
+Iteration: 31, Sunsal unmixing accuracy: 53.066 with lambda: 0.800
+Iteration: 31, Sunsal unmixing accuracy: 53.056 with lambda: 0.900
+Iteration: 31, Sunsal unmixing accuracy: 0.206 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 32, Sunsal unmixing accuracy: 49.215 with lambda: 0.000
+Iteration: 32, Sunsal unmixing accuracy: 52.499 with lambda: 0.100 <- max
+Iteration: 32, Sunsal unmixing accuracy: 51.559 with lambda: 0.200
+Iteration: 32, Sunsal unmixing accuracy: 51.446 with lambda: 0.300
+Iteration: 32, Sunsal unmixing accuracy: 51.167 with lambda: 0.400
+Iteration: 32, Sunsal unmixing accuracy: 51.446 with lambda: 0.500					
+Iteration: 32, Sunsal unmixing accuracy: 51.559 with lambda: 0.600
+Iteration: 32, Sunsal unmixing accuracy: 51.466 with lambda: 0.700
+Iteration: 32, Sunsal unmixing accuracy: 51.508 with lambda: 0.800
+Iteration: 32, Sunsal unmixing accuracy: 51.384 with lambda: 0.900
+Iteration: 32, Sunsal unmixing accuracy: 0.258 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 33, Sunsal unmixing accuracy: 59.223 with lambda: 0.000 <- max
+Iteration: 33, Sunsal unmixing accuracy: 52.702 with lambda: 0.100
+Iteration: 33, Sunsal unmixing accuracy: 50.698 with lambda: 0.200
+Iteration: 33, Sunsal unmixing accuracy: 50.656 with lambda: 0.300					
+Iteration: 33, Sunsal unmixing accuracy: 51.214 with lambda: 0.400
+Iteration: 33, Sunsal unmixing accuracy: 51.369 with lambda: 0.500
+Iteration: 33, Sunsal unmixing accuracy: 50.977 with lambda: 0.600
+Iteration: 33, Sunsal unmixing accuracy: 51.235 with lambda: 0.700
+Iteration: 33, Sunsal unmixing accuracy: 51.214 with lambda: 0.800
+Iteration: 33, Sunsal unmixing accuracy: 51.245 with lambda: 0.900
+Iteration: 33, Sunsal unmixing accuracy: 0.186 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 34, Sunsal unmixing accuracy: 56.107 with lambda: 0.000 <- max
+Iteration: 34, Sunsal unmixing accuracy: 48.545 with lambda: 0.100
+Iteration: 34, Sunsal unmixing accuracy: 49.887 with lambda: 0.200
+Iteration: 34, Sunsal unmixing accuracy: 50.320 with lambda: 0.300
+Iteration: 34, Sunsal unmixing accuracy: 50.227 with lambda: 0.400
+Iteration: 34, Sunsal unmixing accuracy: 49.701 with lambda: 0.500					
+Iteration: 34, Sunsal unmixing accuracy: 49.835 with lambda: 0.600
+Iteration: 34, Sunsal unmixing accuracy: 49.515 with lambda: 0.700
+Iteration: 34, Sunsal unmixing accuracy: 49.072 with lambda: 0.800
+Iteration: 34, Sunsal unmixing accuracy: 48.855 with lambda: 0.900
+Iteration: 34, Sunsal unmixing accuracy: 0.289 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 35, Sunsal unmixing accuracy: 55.147 with lambda: 0.000
+Iteration: 35, Sunsal unmixing accuracy: 57.463 with lambda: 0.100 <- max
+Iteration: 35, Sunsal unmixing accuracy: 56.331 with lambda: 0.200
+Iteration: 35, Sunsal unmixing accuracy: 56.558 with lambda: 0.300
+Iteration: 35, Sunsal unmixing accuracy: 56.156 with lambda: 0.400					
+Iteration: 35, Sunsal unmixing accuracy: 56.733 with lambda: 0.500
+Iteration: 35, Sunsal unmixing accuracy: 57.072 with lambda: 0.600
+Iteration: 35, Sunsal unmixing accuracy: 57.247 with lambda: 0.700
+Iteration: 35, Sunsal unmixing accuracy: 57.124 with lambda: 0.800
+Iteration: 35, Sunsal unmixing accuracy: 56.918 with lambda: 0.900
+Iteration: 35, Sunsal unmixing accuracy: 0.278 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 36, Sunsal unmixing accuracy: 52.917 with lambda: 0.000 <- max
+Iteration: 36, Sunsal unmixing accuracy: 50.563 with lambda: 0.100
+Iteration: 36, Sunsal unmixing accuracy: 50.191 with lambda: 0.200
+Iteration: 36, Sunsal unmixing accuracy: 49.747 with lambda: 0.300
+Iteration: 36, Sunsal unmixing accuracy: 48.404 with lambda: 0.400						
+Iteration: 36, Sunsal unmixing accuracy: 48.404 with lambda: 0.500
+Iteration: 36, Sunsal unmixing accuracy: 48.394 with lambda: 0.600
+Iteration: 36, Sunsal unmixing accuracy: 48.167 with lambda: 0.700
+Iteration: 36, Sunsal unmixing accuracy: 47.826 with lambda: 0.800
+Iteration: 36, Sunsal unmixing accuracy: 47.382 with lambda: 0.900
+Iteration: 36, Sunsal unmixing accuracy: 0.227 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 37, Sunsal unmixing accuracy: 57.928 with lambda: 0.000 <- max
+Iteration: 37, Sunsal unmixing accuracy: 54.495 with lambda: 0.100
+Iteration: 37, Sunsal unmixing accuracy: 52.784 with lambda: 0.200
+Iteration: 37, Sunsal unmixing accuracy: 52.227 with lambda: 0.300
+Iteration: 37, Sunsal unmixing accuracy: 51.876 with lambda: 0.400					
+Iteration: 37, Sunsal unmixing accuracy: 51.876 with lambda: 0.500
+Iteration: 37, Sunsal unmixing accuracy: 51.938 with lambda: 0.600
+Iteration: 37, Sunsal unmixing accuracy: 52.010 with lambda: 0.700
+Iteration: 37, Sunsal unmixing accuracy: 51.753 with lambda: 0.800
+Iteration: 37, Sunsal unmixing accuracy: 51.784 with lambda: 0.900
+Iteration: 37, Sunsal unmixing accuracy: 0.175 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 38, Sunsal unmixing accuracy: 47.320 with lambda: 0.000
+Iteration: 38, Sunsal unmixing accuracy: 46.256 with lambda: 0.100
+Iteration: 38, Sunsal unmixing accuracy: 46.835 with lambda: 0.200
+Iteration: 38, Sunsal unmixing accuracy: 47.506 with lambda: 0.300
+Iteration: 38, Sunsal unmixing accuracy: 47.960 with lambda: 0.400
+Iteration: 38, Sunsal unmixing accuracy: 48.425 with lambda: 0.500
+Iteration: 38, Sunsal unmixing accuracy: 48.838 with lambda: 0.600					
+Iteration: 38, Sunsal unmixing accuracy: 49.003 with lambda: 0.700
+Iteration: 38, Sunsal unmixing accuracy: 49.386 with lambda: 0.800
+Iteration: 38, Sunsal unmixing accuracy: 49.437 with lambda: 0.900 <- max
+Iteration: 38, Sunsal unmixing accuracy: 0.258 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 39, Sunsal unmixing accuracy: 54.112 with lambda: 0.000 <- max
+Iteration: 39, Sunsal unmixing accuracy: 51.722 with lambda: 0.100
+Iteration: 39, Sunsal unmixing accuracy: 53.233 with lambda: 0.200
+Iteration: 39, Sunsal unmixing accuracy: 53.346 with lambda: 0.300
+Iteration: 39, Sunsal unmixing accuracy: 53.305 with lambda: 0.400
+Iteration: 39, Sunsal unmixing accuracy: 53.098 with lambda: 0.500
+Iteration: 39, Sunsal unmixing accuracy: 52.581 with lambda: 0.600
+Iteration: 39, Sunsal unmixing accuracy: 51.981 with lambda: 0.700					
+Iteration: 39, Sunsal unmixing accuracy: 51.143 with lambda: 0.800
+Iteration: 39, Sunsal unmixing accuracy: 51.029 with lambda: 0.900
+Iteration: 39, Sunsal unmixing accuracy: 0.228 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 40, Sunsal unmixing accuracy: 51.852 with lambda: 0.000 
+Iteration: 40, Sunsal unmixing accuracy: 51.770 with lambda: 0.100
+Iteration: 40, Sunsal unmixing accuracy: 53.204 with lambda: 0.200
+Iteration: 40, Sunsal unmixing accuracy: 53.689 with lambda: 0.300
+Iteration: 40, Sunsal unmixing accuracy: 52.667 with lambda: 0.400				
+Iteration: 40, Sunsal unmixing accuracy: 53.287 with lambda: 0.500
+Iteration: 40, Sunsal unmixing accuracy: 53.668 with lambda: 0.600
+Iteration: 40, Sunsal unmixing accuracy: 53.679 with lambda: 0.700
+Iteration: 40, Sunsal unmixing accuracy: 53.999 with lambda: 0.800 <- max
+Iteration: 40, Sunsal unmixing accuracy: 53.627 with lambda: 0.900
+Iteration: 40, Sunsal unmixing accuracy: 0.217 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 41, Sunsal unmixing accuracy: 52.700 with lambda: 0.000 <- max
+Iteration: 41, Sunsal unmixing accuracy: 41.808 with lambda: 0.100
+Iteration: 41, Sunsal unmixing accuracy: 43.297 with lambda: 0.200
+Iteration: 41, Sunsal unmixing accuracy: 44.528 with lambda: 0.300
+Iteration: 41, Sunsal unmixing accuracy: 45.345 with lambda: 0.400
+Iteration: 41, Sunsal unmixing accuracy: 46.545 with lambda: 0.500				
+Iteration: 41, Sunsal unmixing accuracy: 47.931 with lambda: 0.600
+Iteration: 41, Sunsal unmixing accuracy: 49.121 with lambda: 0.700
+Iteration: 41, Sunsal unmixing accuracy: 49.948 with lambda: 0.800
+Iteration: 41, Sunsal unmixing accuracy: 50.124 with lambda: 0.900
+Iteration: 41, Sunsal unmixing accuracy: 0.197 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 42, Sunsal unmixing accuracy: 53.036 with lambda: 0.000
+Iteration: 42, Sunsal unmixing accuracy: 55.161 with lambda: 0.100 <- max
+Iteration: 42, Sunsal unmixing accuracy: 55.005 with lambda: 0.200
+Iteration: 42, Sunsal unmixing accuracy: 54.259 with lambda: 0.300
+Iteration: 42, Sunsal unmixing accuracy: 53.679 with lambda: 0.400
+Iteration: 42, Sunsal unmixing accuracy: 53.813 with lambda: 0.500
+Iteration: 42, Sunsal unmixing accuracy: 53.710 with lambda: 0.600					
+Iteration: 42, Sunsal unmixing accuracy: 53.451 with lambda: 0.700
+Iteration: 42, Sunsal unmixing accuracy: 53.244 with lambda: 0.800
+Iteration: 42, Sunsal unmixing accuracy: 53.005 with lambda: 0.900
+Iteration: 42, Sunsal unmixing accuracy: 0.145 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 43, Sunsal unmixing accuracy: 60.907 with lambda: 0.000 <- max
+Iteration: 43, Sunsal unmixing accuracy: 60.224 with lambda: 0.100
+Iteration: 43, Sunsal unmixing accuracy: 60.275 with lambda: 0.200
+Iteration: 43, Sunsal unmixing accuracy: 59.986 with lambda: 0.300
+Iteration: 43, Sunsal unmixing accuracy: 59.851 with lambda: 0.400
+Iteration: 43, Sunsal unmixing accuracy: 59.872 with lambda: 0.500
+Iteration: 43, Sunsal unmixing accuracy: 59.820 with lambda: 0.600
+Iteration: 43, Sunsal unmixing accuracy: 59.458 with lambda: 0.700					
+Iteration: 43, Sunsal unmixing accuracy: 59.168 with lambda: 0.800
+Iteration: 43, Sunsal unmixing accuracy: 58.640 with lambda: 0.900
+Iteration: 43, Sunsal unmixing accuracy: 0.186 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 44, Sunsal unmixing accuracy: 55.865 with lambda: 0.000 <- max
+Iteration: 44, Sunsal unmixing accuracy: 55.204 with lambda: 0.100
+Iteration: 44, Sunsal unmixing accuracy: 54.027 with lambda: 0.200
+Iteration: 44, Sunsal unmixing accuracy: 54.213 with lambda: 0.300
+Iteration: 44, Sunsal unmixing accuracy: 54.069 with lambda: 0.400
+Iteration: 44, Sunsal unmixing accuracy: 54.182 with lambda: 0.500
+Iteration: 44, Sunsal unmixing accuracy: 54.089 with lambda: 0.600						
+Iteration: 44, Sunsal unmixing accuracy: 53.924 with lambda: 0.700
+Iteration: 44, Sunsal unmixing accuracy: 53.676 with lambda: 0.800
+Iteration: 44, Sunsal unmixing accuracy: 53.387 with lambda: 0.900
+Iteration: 44, Sunsal unmixing accuracy: 0.248 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 45, Sunsal unmixing accuracy: 57.862 with lambda: 0.000 <- max
+Iteration: 45, Sunsal unmixing accuracy: 53.182 with lambda: 0.100
+Iteration: 45, Sunsal unmixing accuracy: 52.221 with lambda: 0.200
+Iteration: 45, Sunsal unmixing accuracy: 52.510 with lambda: 0.300
+Iteration: 45, Sunsal unmixing accuracy: 53.275 with lambda: 0.400
+Iteration: 45, Sunsal unmixing accuracy: 54.050 with lambda: 0.500					
+Iteration: 45, Sunsal unmixing accuracy: 54.401 with lambda: 0.600
+Iteration: 45, Sunsal unmixing accuracy: 54.463 with lambda: 0.700
+Iteration: 45, Sunsal unmixing accuracy: 54.618 with lambda: 0.800
+Iteration: 45, Sunsal unmixing accuracy: 54.721 with lambda: 0.900
+Iteration: 45, Sunsal unmixing accuracy: 0.217 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 46, Sunsal unmixing accuracy: 52.814 with lambda: 0.000 <- max
+Iteration: 46, Sunsal unmixing accuracy: 50.666 with lambda: 0.100
+Iteration: 46, Sunsal unmixing accuracy: 51.172 with lambda: 0.200
+Iteration: 46, Sunsal unmixing accuracy: 50.553 with lambda: 0.300
+Iteration: 46, Sunsal unmixing accuracy: 49.437 with lambda: 0.400
+Iteration: 46, Sunsal unmixing accuracy: 49.530 with lambda: 0.500
+Iteration: 46, Sunsal unmixing accuracy: 49.675 with lambda: 0.600					
+Iteration: 46, Sunsal unmixing accuracy: 49.943 with lambda: 0.700
+Iteration: 46, Sunsal unmixing accuracy: 50.036 with lambda: 0.800
+Iteration: 46, Sunsal unmixing accuracy: 50.098 with lambda: 0.900
+Iteration: 46, Sunsal unmixing accuracy: 0.165 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 47, Sunsal unmixing accuracy: 52.200 with lambda: 0.000 <- max
+Iteration: 47, Sunsal unmixing accuracy: 51.941 with lambda: 0.100
+Iteration: 47, Sunsal unmixing accuracy: 51.568 with lambda: 0.200
+Iteration: 47, Sunsal unmixing accuracy: 51.134 with lambda: 0.300
+Iteration: 47, Sunsal unmixing accuracy: 51.082 with lambda: 0.400
+Iteration: 47, Sunsal unmixing accuracy: 50.792 with lambda: 0.500
+Iteration: 47, Sunsal unmixing accuracy: 50.864 with lambda: 0.600							
+Iteration: 47, Sunsal unmixing accuracy: 50.833 with lambda: 0.700
+Iteration: 47, Sunsal unmixing accuracy: 50.616 with lambda: 0.800
+Iteration: 47, Sunsal unmixing accuracy: 50.305 with lambda: 0.900
+Iteration: 47, Sunsal unmixing accuracy: 0.217 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 48, Sunsal unmixing accuracy: 55.047 with lambda: 0.000
+Iteration: 48, Sunsal unmixing accuracy: 52.792 with lambda: 0.100 <- max
+Iteration: 48, Sunsal unmixing accuracy: 51.210 with lambda: 0.200
+Iteration: 48, Sunsal unmixing accuracy: 50.114 with lambda: 0.300
+Iteration: 48, Sunsal unmixing accuracy: 50.724 with lambda: 0.400						
+Iteration: 48, Sunsal unmixing accuracy: 50.683 with lambda: 0.500
+Iteration: 48, Sunsal unmixing accuracy: 50.848 with lambda: 0.600
+Iteration: 48, Sunsal unmixing accuracy: 50.631 with lambda: 0.700
+Iteration: 48, Sunsal unmixing accuracy: 50.455 with lambda: 0.800
+Iteration: 48, Sunsal unmixing accuracy: 50.548 with lambda: 0.900
+Iteration: 48, Sunsal unmixing accuracy: 0.269 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 49, Sunsal unmixing accuracy: 51.437 with lambda: 0.000 <- max
+Iteration: 49, Sunsal unmixing accuracy: 46.361 with lambda: 0.100
+Iteration: 49, Sunsal unmixing accuracy: 48.977 with lambda: 0.200
+Iteration: 49, Sunsal unmixing accuracy: 49.824 with lambda: 0.300
+Iteration: 49, Sunsal unmixing accuracy: 50.227 with lambda: 0.400						
+Iteration: 49, Sunsal unmixing accuracy: 50.424 with lambda: 0.500
+Iteration: 49, Sunsal unmixing accuracy: 50.548 with lambda: 0.600
+Iteration: 49, Sunsal unmixing accuracy: 51.137 with lambda: 0.700
+Iteration: 49, Sunsal unmixing accuracy: 51.168 with lambda: 0.800
+Iteration: 49, Sunsal unmixing accuracy: 51.075 with lambda: 0.900
+Iteration: 49, Sunsal unmixing accuracy: 0.186 with lambda: 1.000
+----------------------------------------------------------------------------------
+Iteration: 50, Sunsal unmixing accuracy: 56.591 with lambda: 0.000 <- max
+Iteration: 50, Sunsal unmixing accuracy: 52.049 with lambda: 0.100 						
+Iteration: 50, Sunsal unmixing accuracy: 53.353 with lambda: 0.200
+Iteration: 50, Sunsal unmixing accuracy: 53.549 with lambda: 0.300
+Iteration: 50, Sunsal unmixing accuracy: 53.073 with lambda: 0.400
+Iteration: 50, Sunsal unmixing accuracy: 53.963 with lambda: 0.500
+Iteration: 50, Sunsal unmixing accuracy: 54.543 with lambda: 0.600
+Iteration: 50, Sunsal unmixing accuracy: 54.491 with lambda: 0.700
+Iteration: 50, Sunsal unmixing accuracy: 54.460 with lambda: 0.800
+Iteration: 50, Sunsal unmixing accuracy: 54.377 with lambda: 0.900
+Iteration: 50, Sunsal unmixing accuracy: 0.207 with lambda: 1.000
+----------------------------------------------------------------------------------
+		0.0:31|  0.1: 8| 0.3: 2 |0.5: 2| 0.7:3 | 0.8: 3 | 0.9: 1

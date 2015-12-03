@@ -1,4 +1,4 @@
-function [trainData,trainLabels, testData, testLabels,endMembers,trainMatrix,testMatrix,neighbours,neighData,neighMatrix,testNeighLabels] = select5PixPerClass_IncludeNeighbours(indian_pines,indian_pines_gt,numBands)
+function [trainData,trainLabels, testData, testLabels,endMembers,trainMatrix,testMatrix,neighbours,neighData,neighMatrix,testNeighLabels] = select5PixPerClass_IncludeNeighboursRemovedNoise(indian_pines,indian_pines_gt,numBands)
 
 %% Find the indices of each class value from the ground truth indian pines
 %  Store the indices for all classes in a classIndex variable
@@ -57,14 +57,20 @@ for i = 1:(numClasses)
     for j = 1: size(classTestIndex{i},1)
         testPixSpecVector = indian_pines(testPixIndClass{i}(j,1),testPixIndClass{i}(j,2),:);
         testPixSpecVector = reshape(testPixSpecVector, 1,numBands);
-        testMatrix{i} = [testMatrix{i}; testPixSpecVector]; % each trainMatrix is N x d                                                      
+        testMatrix{i} = [testMatrix{i}; testPixSpecVector]; % each trainMatrix is N x d     
     end
+    % Removing noise
+    testMatrix{i} = removeNoise(testMatrix{i}');
+    testMatrix{i} = testMatrix{i}';
 
     for j = 1:size(classTrainIndex{i},1)
         trainPixSpecVector = indian_pines(trainPixIndClass{i}(j,1),trainPixIndClass{i}(j,2),:);
         trainPixSpecVector = reshape(trainPixSpecVector, 1,numBands);
         trainMatrix{i} = [trainMatrix{i}; trainPixSpecVector]; % each trainMatrix is N x d
     end
+    %Removing noise
+     trainMatrix{i} = removeNoise(trainMatrix{i}');
+     trainMatrix{i} = trainMatrix{i}';
 end
 
 % endMembers = endMembersCalc(trainMatrix); % endmembers from only 5 pixels per class,
@@ -85,6 +91,10 @@ for i =1: numClasses
             testMatrix{i} = [testMatrix{i}; testPixSpecVector]; % each trainMatrix is N x d  
             testLabels = [testLabels; i];
     end
+    %Removing noise
+    testMatrix{i} = removeNoise(testMatrix{i}');
+    testMatrix{i} = testMatrix{i}';
+    
     % Normalisation of the training pixels
     trainMatrix{i} = normalize(trainMatrix{i});
     % Normalisation of the test data:
@@ -95,6 +105,8 @@ for i =1: numClasses
         neighboursData{i}{j} = [];
     end
     neighboursData{i} = neighbourMatrix;
+    neighboursData{i} = removeNoise(neighboursData{i}');
+    neighboursData{i} = neighboursData{i}';
     neighboursData{i} = normalize(neighboursData{i});
 end
 

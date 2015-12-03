@@ -20,6 +20,7 @@ function [indian_pines_gt,indian_pines,numBands] = load_Indian_Pines_image()
     bands = setdiff(1:200,[1:4 33:33 97:97 103:113 148:166]); % remove certain noisy bands
     numBands = size(bands,2);
     indian_pines = indian_pines_scaled(:,:,bands);
+    
     %indian_pines_gtStruct = load('E:\Projects\Matlab\data\datasets\AVIRIS_Indian_Pines\Indian_pines_gt.mat');
     indian_pines_gtStruct = load('Indian_pines_gt.mat');
     indian_pines_gt = indian_pines_gtStruct.indian_pines_gt;
